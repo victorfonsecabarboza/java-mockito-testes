@@ -2,11 +2,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>javamock</groupId>
-    <artifactId>mock</artifactId>
+    <groupId>mocktest</groupId>
+    <artifactId>mockjava</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>mock</name>
+    <name>mockjava</name>
     <description>Add project description here</description>
 
     <properties>
@@ -20,6 +20,20 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+		<dependency>
+   			<groupId>org.mockito</groupId>
+    		<artifactId>mockito-core</artifactId>
+    		<version>4.8.1</version>
+    		<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter -->
+		<dependency>
+    		<groupId>org.mockito</groupId>
+    		<artifactId>mockito-junit-jupiter</artifactId>
+    		<version>4.8.1</version>
+    		<scope>test</scope>
+		</dependency>
     </dependencies>
 
     <build>
