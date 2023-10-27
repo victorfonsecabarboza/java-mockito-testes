@@ -4,17 +4,16 @@ import static org.junit.Assert.assertEquals;
 
 import java.time.LocalDate;
 
-import org.Junit.Jupiter.api.extension.ExtendWith;
+import org.junit.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
+import org.mockito.junit.jupiter.MockitoExtension;
 
 import model.DadosLocalizacao;
 import model.Usuario;
 import service.ApiCorreios;
-
-import org.mockito.Junit.Jupiter.MockitoExtension;
-
 
 @ExtendWith(MockitoExtension.class)
 public class CadastroUsuarioTest {
