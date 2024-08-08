@@ -4,7 +4,7 @@
 
 ## Descrição
 
-Projeto de testes unitários para cadastro de usuario desenvolvidos com Java, utilizando Mockito para a criação de mocks. Mockito é uma biblioteca popular que facilita o isolamento de unidades de código para testes, permitindo que você crie e configure objetos simulados (mocks) para verificar o comportamento do seu código sem depender de componentes externos.
+Projeto de testes unitários com Mockito para o cadastro de usuario desenvolvido com Java, utilizando Mockito para a criação de mocks. Mockito é uma biblioteca popular que facilita o isolamento de unidades de código para testes, permitindo que você crie e configure objetos simulados (mocks) para verificar o comportamento do seu código sem depender de componentes externos.
 
 ## Principais Características
 
